@@ -1,9 +1,9 @@
 ;(function() {
-  if (typeof Snake === "undefined"){
-    window.Snake = {};
+  if (typeof SnakeGame === "undefined"){
+    window.SnakeGame = {};
   }
 
-  var Snake = Snake.Snake = function() {
+  var Snake = SnakeGame.Snake = function() {
     this.dir = "N";
     this.pos = [5,5];
   };
